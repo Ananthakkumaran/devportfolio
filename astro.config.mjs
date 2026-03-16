@@ -6,7 +6,5 @@ export default defineConfig({
   site: "https://ananthakkumaran.github.io",
   base: "/",
   output: "static",
-  vite: {
-    plugins: [tailwindcss()],
-  },
+  integrations: [tailwind()],
 });
