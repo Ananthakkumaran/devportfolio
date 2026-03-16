@@ -4,7 +4,7 @@ import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
   site: "https://ananthakkumaran.github.io",
-  base: "/",
+  base: "/devportfolio/",
   output: "static",
   integrations: [tailwind()],
 });
