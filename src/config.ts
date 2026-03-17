@@ -6,7 +6,7 @@ export const siteConfig = {
   social: {
     email: "ananthakkumaran@gmail.com",
     linkedin: "https://www.linkedin.com/in/ananthakkumaran/",
-    github: "https://www.linkedin.com/in/ananthakkumaran/",
+    github: "https://github.com/Ananthakkumaran",
   },
   aboutMe:
     "Software Engineer specializing in Android development with Kotlin, Java, and Jetpack Compose, building scalable mobile applications and cloud-integrated systems on AWS, with additional experience in AI-powered vehicle safety solutions and IoT integrations for asset tracking and monitoring.",
