@@ -134,7 +134,8 @@ export const siteConfig = {
         "Queue Management Systems",
         "POS & Printer Integration",
         "REST APIs",
-        "Git"
+        "Git",
+        "Platforms: Android TV, Android Boxes (Zidoo, APC), Phones, Tablets"
       ],
       type: "work"
     }
@@ -171,22 +172,23 @@ export const siteConfig = {
         ],
         techStack: ["Android", "Kotlin", "Java", "Jetpack Compose", "Firebase", "REST APIs", "Mobile Payments"]
       },
-      {
-        company: "T S Technologies (Pvt) Ltd",
-        title: "Software Engineer",
-        dateRange: "Feb 2018 - Dec 2021",
-        location: "Colombo District, Sri Lanka",
-        bullets: [
-          "Developed and maintained Android applications for Digital Signage, Queue Management, Hospital QMS, and Customer Feedback systems.",
-          "Built a complete Digital Signage platform with dynamic template creation, offline caching, and rich content support (videos, images, YouTube, RSS, live streams, HDMI, weather, etc.).",
-          "Delivered end-to-end Queue Management solutions including Kiosk, Calling Pad, Main Display, and Counter Display apps with real-time updates and voice announcements.",
-          "Created Customer Feedback apps for collecting ratings and service insights.",
-          "Delivered Android applications across phones, tablets, Android Box, and Android TV.",
-          "Integrated apps with POS and printer devices such as Bixolon, NPI, Epson, and other thermal printers.",
-          "Maintained clean, organized, and scalable code using Git with proper version control practices."
-        ],
-        techStack: ["Android", "Kotlin", "Java", "Android SDK", "REST APIs", "POS & Printer Integration", "Git"]
-      },
+    {
+      company: "T S Technologies (Pvt) Ltd",
+      title: "Software Engineer (Android)",
+      dateRange: "Feb 2018 - Dec 2021",
+      location: "Colombo District, Sri Lanka",
+      bullets: [
+        "Developed and maintained Android applications for Digital Signage, Queue Management, Hospital QMS, and Customer Feedback systems.",
+        "Built and deployed Digital Signage & Queue Management platforms across 100+ client environments, including hospitals, banks, and enterprises.",
+        "Developed scalable Digital Signage solutions with support for dynamic content including images, videos, web views, YouTube, live streaming, scrolling text, digital & analog clocks, PowerPoint, shapes, tables, weather widgets, and audio playback.",
+        "Implemented advanced scheduling features (basic and advanced) for automated content management and playback.",
+        "Delivered end-to-end Queue Management systems (Kiosk, Calling Pad, Main Display, Counter Display) with real-time updates and voice announcements, improving service efficiency.",
+        "Developed and deployed applications across multiple Android platforms including Android TV, Android Boxes (Zidoo, APC, etc.), phones, and tablets.",
+        "Integrated applications with POS systems and thermal printers (Bixolon, Epson, NPI) to support real-world operational workflows.",
+        "Maintained clean, scalable, and well-structured codebases using Git and best practices for version control."
+      ],
+      techStack: ["Android", "Kotlin", "Java", "Android SDK", "REST APIs", "POS & Printer Integration", "Git",  "Platforms: Android TV, Android Boxes (Zidoo, APC), Phones, Tablets"]
+    },
   ],
   education: [
   {
