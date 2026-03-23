@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Ananthakkumaran Pushpananthan",
-  title: "Senior Software Engineer-Android",
+  title: "Software Engineer – Android & Cloud",
   description: "Portfolio website of Ananth",
   accentColor: "#1d4ed8",
   social: {
