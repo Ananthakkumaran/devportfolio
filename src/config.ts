@@ -84,7 +84,7 @@ export const siteConfig = {
     {
       name: "KKL Operations Suite & MST",
       year: "2022 – Present",
-      status: "Ongoing",
+      status: "Deployed",
       impact: "1,000+ daily users across 30+ screens",
       description:
         "Enterprise operations platform digitising workshop operations, asset management and field service. Migrated a 30+ screen codebase from Java/XML (MVC) to Kotlin/MVVM with Jetpack Compose adoption underway. Includes MST, a companion field app for ~20 service staff replacing paper-based job tracking with digital task management, reporting and on-device signature capture.",
@@ -154,6 +154,15 @@ export const siteConfig = {
       description:
         "Android SaaS app for vehicle rental handover evidence — digital documentation, photo capture and compliance records, built under Klik Innovatech.",
       skills: ["Kotlin", "Jetpack Compose", "AWS"],
+      link: "",
+    },
+    {
+      name: "TouchLK Plus",
+      year: "2025 – Present",
+      status: "In Development",
+      description:
+        "Ground-up rewrite of the TouchLK merchant payment platform in Kotlin and Jetpack Compose with Clean Architecture, carrying forward the full TouchLK feature set — mobile reloads, bill payments, insurance premiums and e-wallet top-ups — rebuilt for best-in-class app performance and UX.",
+      skills: ["Kotlin", "Jetpack Compose", "Clean Architecture", "Android"],
       link: "",
     },
     {

@@ -10,7 +10,7 @@ function initials(name: string) {
   return (words[0][0] + words[1][0]).toUpperCase();
 }
 
-const activeStatuses = new Set(["Live", "Deployed", "Ongoing", "Active"]);
+const mutedStatuses = new Set(["Archived"]);
 ---
 
 <section id="systems" class="sec">
@@ -26,7 +26,7 @@ const activeStatuses = new Set(["Live", "Deployed", "Ongoing", "Active"]);
         const linkProps = project.link
           ? { href: project.link, target: "_blank", rel: "noopener noreferrer" }
           : {};
-        const isActive = activeStatuses.has(project.status ?? "");
+        const isActive = !mutedStatuses.has(project.status ?? "");
 
         return (
           <Component class="card" {...linkProps}>
