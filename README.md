@@ -51,8 +51,7 @@ Then rebuild and deploy:
 
 ```bash
 npm run build
-##npx gh-pages -d dist --dotfiles --force
-npm gh-pages -d dist  
+npx gh-pages -d dist --dotfiles --force
 ```
 
 ---

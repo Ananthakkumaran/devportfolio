@@ -1,209 +1,247 @@
 export const siteConfig = {
   name: "Ananthakkumaran Pushpananthan",
-  title: "Software Engineer – Android & Cloud",
-  description: "Portfolio website of Ananth",
-  accentColor: "#1d4ed8",
+  title: "Senior Android Engineer",
+  description:
+    "Portfolio of Ananthakkumaran Pushpananthan, Senior Android Engineer specializing in Kotlin, Jetpack Compose and AWS cloud systems.",
+  accentColor: "#1E9E68",
+  location: "Singapore",
+  availability: "Available immediately · Eligible for EP application",
   social: {
-    email: "ananthakkumaran@gmail.com",
+    phone: "+65 8248 2428",
+    email: "p.ananthakkumaran@gmail.com",
     linkedin: "https://www.linkedin.com/in/ananthakkumaran/",
     github: "https://github.com/Ananthakkumaran",
   },
   aboutMe:
-    "Software Engineer specializing in Android development with Kotlin, Java, and Jetpack Compose, building scalable mobile applications and cloud-integrated systems on AWS, with additional experience in AI-powered vehicle safety solutions and IoT integrations for asset tracking and monitoring.",
-  skills: ["Android Development", "Kotlin", "Jetpack Compose", "Java", "Android SDK", "REST APIs", "AWS Cloud", "API Gateway", "Firebase", "Git", "CI/CD", "IoT Integration"],
+    "Senior Android Engineer with 8+ years delivering production-grade mobile apps across enterprise operations, fintech, IoT, and digital signage. Proficient in Kotlin, Jetpack Compose, and Clean Architecture (MVVM), with hands-on experience designing and deploying AWS cloud infrastructure. Proven track record leading Android development end-to-end — architecture through Play Store release — across phones, tablets, Android TV, and Android Boxes.",
+
+  skillGroups: [
+    { category: "Languages", items: ["Kotlin", "Java"] },
+    {
+      category: "Android",
+      items: [
+        "Jetpack Compose",
+        "Android SDK",
+        "MVVM",
+        "Clean Architecture",
+        "MVC",
+        "XML Layouts",
+        "ViewBinding",
+      ],
+    },
+    {
+      category: "Libraries",
+      items: [
+        "Retrofit",
+        "OkHttp",
+        "Room",
+        "Hilt",
+        "WorkManager",
+        "ExoPlayer",
+        "Media3",
+        "Gson",
+        "Moshi",
+        "Kotlinx Serialization",
+      ],
+    },
+    {
+      category: "Cloud & AWS",
+      items: [
+        "EC2",
+        "Lambda",
+        "DynamoDB",
+        "API Gateway",
+        "S3",
+        "SNS",
+        "SES",
+        "IoT Core",
+        "Rekognition",
+        "AWS Amplify",
+      ],
+    },
+    {
+      category: "IoT & Hardware",
+      items: [
+        "MQTT",
+        "BLE",
+        "Telematics",
+        "Android TV",
+        "Android Boxes (Zidoo, APC)",
+        "Thermal Printers (Bixolon, Epson, NPI)",
+      ],
+    },
+    {
+      category: "Firebase",
+      items: ["Crashlytics", "Realtime Database", "Cloud Messaging (FCM)"],
+    },
+    {
+      category: "Dev Tools",
+      items: ["Git", "Bitbucket", "CI/CD", "Jira", "Google Play Console"],
+    },
+  ],
+
   projects: [
     {
-    name: "TouchLK – Merchant Payment Platform",
-    year: "2023",
-    description:
-      "Android payment platform built for Sri Lankan merchants to process mobile reloads, internet payments, utility bills, insurance premiums, DTH services, and e-wallet top-ups in one place. The app enables merchants to earn commissions on transactions while managing their account balance through local bank deposits. Designed with a simple and reliable interface to support small businesses across Sri Lanka.",
-    link: "https://play.google.com/store/apps/details?id=com.ananth.rechargenow&hl=en_SG",
-    skills: ["Android", "XML", "Firebase", "REST APIs"],
-    type: "personal"
-    },
-    {
-    name: "Paddy Calculator – Agricultural Calculation App",
-    year: "2021",
-    description:
-      "Android application built to support farmers by simplifying sack-based crop calculations for paddy, onion, and other grains. The app calculates total bag count, price, and weight, and generates PDF reports that can be shared or printed for record keeping. Designed with configurable bag weight and price settings to adapt to different farming scenarios.",
-    link: "https://play.google.com/store/apps/details?id=com.ananth.asc",
-    skills: ["Android", "XML", "PDF Generation", "Mobile UI/UX"],
-    type: "personal"
-    },
-    {
-      name: "DTHLK – DTH Payment Platform (Ongoing)",
-      year: "2025 - Present",
+      name: "KKL Operations Suite & MST",
+      year: "2022 – Present",
+      status: "Ongoing",
+      impact: "1,000+ daily users across 30+ screens",
       description:
-        "Ongoing Android project designed for Sri Lankan users to make DTH payments quickly and securely. Built with Jetpack Compose and Kotlin for a modern, responsive UI, and integrated with AWS Cloud backend for handling DTH payment processing reliably. Focused on simplicity and speed to help users complete payments efficiently.",
+        "Enterprise operations platform digitising workshop operations, asset management and field service. Migrated a 30+ screen codebase from Java/XML (MVC) to Kotlin/MVVM with Jetpack Compose adoption underway. Includes MST, a companion field app for ~20 service staff replacing paper-based job tracking with digital task management, reporting and on-device signature capture.",
+      skills: ["Kotlin", "Jetpack Compose", "MVVM", "AWS", "Firebase"],
       link: "",
-      skills: ["Android", "Kotlin", "Jetpack Compose", "AWS Cloud", "Payment Gateway Integration"],
-      type: "personal"
     },
     {
-      name: "CEAsia Operations Suite – Android Enterprise App",
+      name: "CEAsia Operations Suite",
       year: "2024",
+      status: "Deployed",
       description:
-        "Enterprise Android application for the CEAsia Operations Suite, digitizing end‑to‑end workflows including sales management, job coordination, fleet tracking, and internal communication. Developed Android features with seamless backend integration using AWS and real‑time MQTT data streams for operational efficiency.",
+        "Enterprise app digitising sales, job coordination, fleet tracking and internal communication, with real-time MQTT data streams and AWS backend integration.",
+      skills: ["Kotlin", "Jetpack Compose", "AWS", "MQTT", "Firebase"],
       link: "",
-      skills: ["Android", "Kotlin", "Jetpack Compose", "AWS (Lambda, API Gateway, DynamoDB, iOT)","Firebase", "MQTT"],
-       type: "work"
     },
     {
-      name: "KKL EMA – Worker Safety & Compliance Platform",
+      name: "KKL EMA – Safety & Compliance",
       year: "2025",
+      status: "Deployed",
       description:
-        "Android companion application designed to help companies meet Workplace Safety and Health (WSH) compliance requirements. The platform allows workers to submit safety declarations, report incidents, and access training materials while enabling organizations to monitor workforce safety and operational compliance through a centralized digital system.",
+        "Workplace Safety and Health (WSH) compliance platform. Workers submit safety declarations, report incidents and access training; organisations monitor workforce compliance centrally.",
+      skills: ["Kotlin", "Jetpack Compose", "AWS", "Firebase"],
       link: "",
-      skills: ["Android", "Kotlin", "Jetpack Compose", "AWS (Lambda, DynamoDB)", "Firebase"],
-      type: "work"
     },
     {
-      name: "SH Operation App – Daily Operations Management",
-      year: "2025",
-      description:
-        "Android application developed for Singheng to digitally manage and track daily operational activities. The app allows staff to record tasks, monitor daily operations, and maintain structured records directly from mobile devices. By replacing manual tracking methods, the system improves operational visibility, simplifies record keeping, and ensures more efficient day-to-day management.",
-      link: "",
-      skills: ["Android", "Kotlin", "Jetpack Compose", "REST APIs", "Mobile UI/UX"],
-      type: "work"
-    },
-    {
-      name: "TrackGenius – Android Vehicle Control & IoT App",
+      name: "WKS Delivery Partner",
       year: "2024",
+      status: "Deployed",
       description:
-        "Developed the Android version of the TrackGenius platform for secure, keyless vehicle access and real-time IoT monitoring. Implemented Jetpack Compose for modern UI, Eddystone (Android) and iBeacon (iOS) protocols for proximity-based engine start, and AWS Face Recognition to ensure authorized user verification. Integrated IoT workflows for engine control and vehicle tracking, delivering a full-stack mobile and cloud solution.",
+        "Unified platform for sales job creation, order management, delivery tracking and team messaging, backed by AWS (DynamoDB, S3, SNS) for data storage and push notifications.",
+      skills: ["Kotlin", "Jetpack Compose", "AWS DynamoDB", "AWS S3", "AWS SNS"],
       link: "",
-      skills: ["Android", "Kotlin", "Jetpack Compose", "IoT Integration", "AWS (Lambda, API Gateway, DynamoDB,Face Recognition)", "Eddystone"],
-      type: "work"
     },
-     {
-        name: "WKS Delivery Partner – Android Operations App",
-        year: "2024",
-        description:
-          "Android version of the WKS Delivery Partner app, a unified platform for sales job creation, order management, delivery tracking, and team messaging. Developed using Jetpack Compose for a modern UI and integrated with AWS backend (DynamoDB, S3, SNS) for reliable data storage and notifications.",
-        link: "",
-        skills: ["Android", "Kotlin", "XML", "AWS", "DynamoDB", "S3", "SNS", "Mobile UI/UX"],
-        type: "work"
-      },
-      {
-        name: "KKL Asset Management – Android Fleet & Operations App",
-        year: "2023",
-        description:
-          "Developed the Android version of the KKL Asset Management platform to streamline fleet operations, track operator work hours, manage machinery maintenance, and handle internal orders. Implemented Jetpack Compose for responsive UI, integrated AWS backend for real-time updates, and automated workflows like PDF report generation, operator work auto-end, and maintenance reminders. The solution increased productivity by 300%, reduced manual workload, and centralized operations in one intuitive mobile platform.",
-        link: "",
-        skills: ["Android", "XML", "AWS", "PDF Generation", "Mobile UI/UX"],
-        type: "work"
-      },
-      {
-        name: "KKL Workshop – Android Service & Task Management",
-        year: "2023",
-        description:
-          "Developed the Android version of the KKL Workshop app, enabling efficient workshop service task management with real‑time job assignment, status updates, and progress workflows. Built with Jetpack Compose for a responsive UI and connected to AWS backend for secure data updates and reliable syncing. Improved operational visibility and reduced service turnaround times through streamlined mobile workflows.",
-        link: "",
-        skills: ["Android", "XML", "AWS", "Mobile UI/UX"],
-        type: "work"
-      },
-      {
-        name: "WFAE – Wong Fong Advanced Engineering Operations App",
-        year: "2023",
-        description:
-          "Android application developed to digitize field operations for Wong Fong Advanced Engineering. The app replaces paper-based workflows by enabling technicians to complete operational checklists, capture photos, and collect client and technician signatures directly on mobile devices. All records and images are securely stored in AWS S3, providing centralized access and improving operational efficiency, traceability, and documentation.",
-        link: "",
-        skills: ["Android", "Kotlin", "Jetpack Compose", "AWS S3", "REST APIs", "Digital Signature", "Field Operations"],
-        type: "work"
-      },{
-          name: "MST – Mobile Service Team",
-          year: "2022",
-          description:
-            "Android application developed to digitize the workflow of the Mobile Service Team responsible for maintaining cranes and garbage collector trucks. The app allows service faults to be assigned digitally, enables technicians to record maintenance tasks, capture before-and-after work photos onsite, and generate detailed PDF service reports. Client and technician signatures are collected digitally, eliminating paperwork. All photos and reports are securely stored in AWS S3, ensuring centralized documentation, improved traceability, and more efficient field operations.",
-          link: "",
-          skills: ["Android", "Kotlin", "XML", "AWS S3", "PDF Generation", "Digital Signature", "Field Service Management"],
-          type: "work"
-        },
     {
-      name: "Digital Signage & Queue Management Platform",
-      year: "2020 – 2021",
+      name: "WFAE Field Operations",
+      year: "2023",
+      status: "Deployed",
       description:
-        "Developed a complete Android-based Digital Signage and Queue Management platform used across businesses and hospitals. The system included multiple applications such as Kiosk, Calling Pad, Main Display, Counter Display, Customer Feedback, and Digital Signage players running on Android phones, tablets, Android TV, and Android Boxes. Implemented dynamic signage templates, offline content caching, and support for rich media including videos, images, YouTube, RSS feeds, live streams, HDMI input, and weather widgets. The queue management system provided real-time updates, voice announcements, and seamless service flow. Integrated POS and thermal printers such as Bixolon, NPI, and Epson to support ticket printing and operational workflows.",
+        "Replaced paper-based workflows for field technicians with digital checklists, photo capture and client/technician signature collection, all stored securely in AWS S3.",
+      skills: ["Kotlin", "Jetpack Compose", "AWS S3", "Digital Signature"],
       link: "",
-      skills: [
-        "Android",
-        "Kotlin",
-        "Java",
-        "Android TV",
-        "Digital Signage",
-        "Queue Management Systems",
-        "POS & Printer Integration",
-        "REST APIs",
-        "Git",
-        "Platforms: Android TV, Android Boxes (Zidoo, APC), Phones, Tablets"
-      ],
-      type: "work"
-    }
-
+    },
+    {
+      name: "TouchLK — Payment Platform",
+      year: "2022 – 2025",
+      status: "Live",
+      impact: "100+ active merchants on Google Play",
+      description:
+        "Merchant payment and e-wallet platform for the Sri Lankan market — mobile reloads, bill payments and e-wallet top-ups. Led Android end-to-end: architecture, secure payment flows with bank-transfer reconciliation, and the full Play Store release lifecycle.",
+      skills: ["Kotlin", "Android", "REST APIs", "Play Console"],
+      link: "https://play.google.com/store/apps/details?id=com.ananth.rechargenow&hl=en_SG",
+    },
+    {
+      name: "TrackGenius — Vehicle Access & IoT",
+      year: "2024",
+      status: "Deployed",
+      impact: "~20 operators, fleet expansion planned",
+      description:
+        "Internal keyless vehicle access system using BLE and AWS Rekognition face recognition. Integrated a third-party GPS fleet-management platform via vendor API, enabling remote vehicle immobilisation from Android.",
+      skills: ["Kotlin", "BLE", "AWS Rekognition", "IoT Core"],
+      link: "",
+    },
+    {
+      name: "KlikShield",
+      year: "2025 – Present",
+      status: "Active",
+      description:
+        "Android SaaS app for vehicle rental handover evidence — digital documentation, photo capture and compliance records, built under Klik Innovatech.",
+      skills: ["Kotlin", "Jetpack Compose", "AWS"],
+      link: "",
+    },
+    {
+      name: "Digital Signage & Queue Management",
+      year: "2018 – 2021",
+      status: "Archived",
+      impact: "100+ client sites",
+      description:
+        "Android-based digital signage platform deployed across hospitals, banks and corporates, supporting rich media scheduling — video, YouTube, live streams, RSS, weather, HDMI and PowerPoint. Paired with a real-time queue management system with voice announcements across healthcare and banking clients. Delivered across Android TV, Android Boxes, phones and tablets, integrated with POS systems and thermal printers.",
+      skills: ["Java", "Android SDK", "Android TV", "MQTT"],
+      link: "",
+    },
   ],
+
   experience: [
     {
-        company: "Wong Fong Engineering Works (1988) Pte Ltd",
-        title: "Software Engineer – Android & Cloud",
-        dateRange: "Feb 2022 - Present",
-        location: "Singapore · On-site",
-        bullets: [
-          "Specialize in Android application development using Kotlin, Jetpack Compose, and modern Android architectures (MVVM, Clean Architecture).",
-          "Develop and maintain high-performance mobile apps integrated with cloud services and REST APIs.",
-          "Design and manage backend infrastructure using AWS (Amplify, DynamoDB, Lambda, API Gateway, S3, SNS, SES, EC2).",
-          "Implement secure authentication and keyless access solutions using AWS Rekognition, enabling smart rental-style equipment access.",
-          "Research and deploy AI-powered 360° vehicle safety camera systems with backend video services hosted on AWS EC2.",
-          "Integrate IoT and telematics devices for asset tracking, operational monitoring, and real-time analytics.",
-          "Collaborate with cross-functional teams using Agile workflows, Git, Bitbucket, and Jira."
-        ],
-        techStack: ["Android", "Kotlin", "Jetpack Compose", "Firebase", "REST APIs", "AWS Cloud", "IoT Integration", "Git", "Bitbucket", "Jira"]
-      },
-      {
-        company: "Alles · Freelance",
-        title: "Software Engineer Android",
-        dateRange: "Oct 2022 - Apr 2025",
-        location: "Sri Lanka · Remote",
-        bullets: [
-          "Developed the complete frontend of the TouchLK merchant payment app using native Android (Kotlin/Java).",
-          "Built user-friendly UI flows for mobile, internet, DTH, utility, insurance, and e-wallet payments.",
-          "Implemented secure transaction handling, merchant balance management, and top-up workflows.",
-          "Optimized app performance for fast, reliable payments for Sri Lankan merchants.",
-          "Collaborated with backend teams to integrate APIs and ensure smooth feature delivery."
-        ],
-        techStack: ["Android", "Kotlin", "Java", "Jetpack Compose", "Firebase", "REST APIs", "Mobile Payments"]
-      },
+      company: "Klik Innovatech Pvt Ltd",
+      companyDescription:
+        "Independent freelance studio building Android applications for enterprise and consumer markets.",
+      title: "Senior Software Engineer (Freelance)",
+      dateRange: "Apr 2025 – Present",
+      location: "Sri Lanka",
+      bullets: [
+        "Leading Android development for multiple independent projects including KlikShield, TouchLK Plus, and a DTH recharge platform, using Kotlin and Jetpack Compose.",
+        "Architecting apps using Clean Architecture (MVVM) with AWS backend integration and REST APIs.",
+        "Managing end-to-end delivery — from architecture and build to Google Play Store release and maintenance.",
+      ],
+    },
+    {
+      company: "Wong Fong Engineering Works (1988) Pte Ltd",
+      companyDescription:
+        "Established enterprise company specialising in specialised vehicles, cranes, and industrial equipment.",
+      title: "Mobile Applications Developer",
+      dateRange: "Feb 2022 – Mar 2026",
+      location: "Singapore",
+      bullets: [
+        "Led KKL Operations Suite — migrated 30+ screen enterprise codebase from Java/XML (MVC) to Kotlin/MVVM with Jetpack Compose adoption underway, serving 1,000+ internal users daily.",
+        "Built MST (Mobile Service Team) field app for ~20 staff, replacing paper-based job tracking with digital task management, reporting, and on-device signature capture.",
+        "Designed and deployed AWS backend (EC2, Lambda, DynamoDB, API Gateway, S3, SNS, SES) supporting real-time mobile–cloud data sync across enterprise apps.",
+        "Built TrackGenius — internal keyless vehicle access system using BLE and AWS Rekognition face recognition, deployed for ~20 operators with planned fleet expansion.",
+        "Evaluated and onboarded a third-party AI vehicle safety system (4-camera per vehicle); set up Singapore-hosted server infrastructure and maintained ongoing system operations.",
+        "Studied and onboarded a third-party GPS fleet management platform; integrated into TrackGenius app via vendor API enabling remote vehicle immobilisation from Android.",
+        "Delivered additional enterprise apps — CEAsia Operations Suite, WKS Delivery Partner, WFAE Field Operations, and KKL EMA Safety Platform — using Kotlin, Jetpack Compose, AWS, Firebase, and MQTT.",
+        "Monitored app stability via Firebase Crashlytics; managed all releases through Google Play Console.",
+      ],
+    },
+    {
+      company: "Alles (Pvt) Ltd",
+      companyDescription:
+        "Fintech startup building a merchant payment and e-wallet platform for the Sri Lankan market.",
+      title: "Android Developer – Lead (Freelance)",
+      dateRange: "Oct 2022 – Apr 2025",
+      location: "Sri Lanka · Remote",
+      bullets: [
+        "Led Android development for TouchLK — live merchant payment app on Google Play serving 100+ active merchants, supporting mobile reloads, bill payments, and e-wallet top-ups.",
+        "Designed secure payment flows with bank-transfer reconciliation and admin-approval workflows; platform roadmapped for local LK payment rail integration.",
+        "Sole Android lead — owned architecture, development, and full Play Store release lifecycle.",
+      ],
+    },
     {
       company: "T S Technologies (Pvt) Ltd",
-      title: "Software Engineer (Android)",
-      dateRange: "Feb 2018 - Dec 2021",
-      location: "Colombo District, Sri Lanka",
+      companyDescription:
+        "Technology company delivering digital signage and queue management solutions across enterprise, healthcare, and banking sectors.",
+      title: "Software Engineer – Android",
+      dateRange: "Feb 2018 – Dec 2021",
+      location: "Sri Lanka",
       bullets: [
-        "Developed and maintained Android applications for Digital Signage, Queue Management, Hospital QMS, and Customer Feedback systems.",
-        "Built and deployed Digital Signage & Queue Management platforms across 100+ client environments, including hospitals, banks, and enterprises.",
-        "Developed scalable Digital Signage solutions with support for dynamic content including images, videos, web views, YouTube, live streaming, scrolling text, digital & analog clocks, PowerPoint, shapes, tables, weather widgets, and audio playback.",
-        "Implemented advanced scheduling features (basic and advanced) for automated content management and playback.",
-        "Delivered end-to-end Queue Management systems (Kiosk, Calling Pad, Main Display, Counter Display) with real-time updates and voice announcements, improving service efficiency.",
-        "Developed and deployed applications across multiple Android platforms including Android TV, Android Boxes (Zidoo, APC, etc.), phones, and tablets.",
-        "Integrated applications with POS systems and thermal printers (Bixolon, Epson, NPI) to support real-world operational workflows.",
-        "Maintained clean, scalable, and well-structured codebases using Git and best practices for version control."
+        "Built and maintained an Android-based Digital Signage platform deployed across 100+ client sites (hospitals, banks, corporates), supporting rich media scheduling — video, YouTube, live streams, RSS, weather, HDMI, audio, and PowerPoint.",
+        "Developed a real-time Queue Management system with live display updates and voice announcements across healthcare and banking clients.",
+        "Delivered apps across Android TV, Android Boxes (Zidoo, APC), phones, and tablets; integrated POS systems and thermal printers (Bixolon, Epson, NPI).",
       ],
-      techStack: ["Android", "Kotlin", "Java", "Android SDK", "REST APIs", "POS & Printer Integration", "Git",  "Platforms: Android TV, Android Boxes (Zidoo, APC), Phones, Tablets"]
     },
   ],
+
   education: [
-  {
+    {
       school: "Wayamba University of Sri Lanka",
-      degree: "Bachelor of Science (B.Sc) in Computing and Information Systems",
-      dateRange: "Jan 2015 - Jan 2018",
+      degree: "B.Sc. in Computing and Information Systems",
+      dateRange: "2015 – 2020",
       achievements: [
-        "Member of the Computing and Information Systems Society",
-        "Member of Electronic Society (ESOC) and Mathematics Society",
+        "Faculty of Applied Science · Graduated January 2020",
+        "Academic qualifications verified by Singapore Ministry of Manpower (MOM)",
       ],
     },
     {
       school: "Wayamba University of Sri Lanka",
       degree: "Certificate in Business English",
-      dateRange: "Dec 2017",
+      dateRange: "2017",
       achievements: [],
     },
   ],
